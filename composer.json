@@ -1,0 +1,30 @@
+{
+  "name": "mion/dither",
+  "description": "A small library for converting full-color image to dither image.",
+  "keywords": [
+    "php",
+    "laravel",
+    "dither",
+    "image",
+    "rgb",
+    "color"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "mion",
+      "email": "info@mion.cn",
+      "homepage": "https://www.mion.cn"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Dither\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.2",
+    "ext-gd": "*"
+  },
+  "minimum-stability": "dev"
+}
